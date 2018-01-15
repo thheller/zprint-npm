@@ -9,4 +9,5 @@
  {:script {:target :node-script
            :output-to "package/main.js"
            :main zprint.npm/main
-           :compiler-options {:infer-externs :auto}}}}
+           :compiler-options {:infer-externs :auto
+                              :optimizations :advanced}}}}
