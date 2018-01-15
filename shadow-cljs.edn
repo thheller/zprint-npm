@@ -1,0 +1,12 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :dependencies
+ [[zprint "0.4.6"]]
+
+ :builds
+ {:script {:target :node-script
+           :output-to "package/main.js"
+           :main zprint.npm/main
+           :compiler-options {:infer-externs :auto}}}}

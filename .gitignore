@@ -1,0 +1,6 @@
+/package/main.js
+/target
+/.idea
+node_modules
+.DS_Store
+*.iml
